@@ -54,6 +54,12 @@
     "label": "board/odroid-u3"
   },
   {
+    "id": "dummy",
+    "defconfig": "dummy",
+    "runner": "aarch64-runner",
+    "label": "board/dummy"
+  },
+  {
     "id": "rpi2",
     "defconfig": "rpi2",
     "runner": "arm-runner",
