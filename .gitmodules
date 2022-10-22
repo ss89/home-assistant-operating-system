@@ -1,4 +1,4 @@
 [submodule "buildroot"]
 	path = buildroot
-	url = https://github.com/home-assistant/buildroot.git
-	branch = 2021.02.x-haos
+	url = https://github.com/ss89/home-assistant-buildroot
+	branch = add-odroid-u3-support
