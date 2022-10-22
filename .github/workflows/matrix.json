@@ -48,6 +48,12 @@
     "label": "board/odroid"
   },
   {
+    "id": "odroid-u3",
+    "defconfig": "odroid_u3",
+    "runner": "aarch64-runner",
+    "label": "board/odroid"
+  },
+  {
     "id": "rpi2",
     "defconfig": "rpi2",
     "runner": "arm-runner",
