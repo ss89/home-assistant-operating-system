@@ -96,6 +96,16 @@ HARDKERNEL_BOOT_BINS += sd_fuse/tzsw.bin.hardkernel
 define HARDKERNEL_BOOT_BUILD_CMDS
 endef
 
+else ifeq ($(BR2_PACKAGE_HARDKERNEL_BOOT_ODROID_U3),y)
+HARDKERNEL_BOOT_VERSION = c60ff124cdd9d3d98ba8eac1eff144ce787a8cc6
+
+HARDKERNEL_BOOT_BINS += sd_fuse/bl1.bin.hardkernel
+HARDKERNEL_BOOT_BINS += sd_fuse/bl2.bin.hardkernel.720k_uboot
+HARDKERNEL_BOOT_BINS += sd_fuse/tzsw.bin.hardkernel
+
+define HARDKERNEL_BOOT_BUILD_CMDS
+endef
+
 else ifeq ($(BR2_PACKAGE_HARDKERNEL_BOOT_ODROID_N2),y)
 HARDKERNEL_BOOT_VERSION = ca5bdd0f1c291d1ec135cd134e01aa2619203d4c
 
