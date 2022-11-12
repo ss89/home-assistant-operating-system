@@ -3,9 +3,9 @@
 
 function hassos_pre_image() {
     local BOOT_DATA="$(path_boot_dir)"
-    local BL1="${BINARIES_DIR}/bl1.bin.hardkernel"
-    local BL2="${BINARIES_DIR}/bl2.bin.hardkernel.720k_uboot"
-    local BLTZ="${BINARIES_DIR}/tzsw.bin.hardkernel"
+    local BL1="${BINARIES_DIR}/bl1.HardKernel"
+    local BL2="${BINARIES_DIR}/bl2.HardKernel"
+    local BLTZ="${BINARIES_DIR}/tzsw.HardKernel"
     local UBOOT="${BINARIES_DIR}/u-boot.bin"
     local spl_img="$(path_spl_img)"
 

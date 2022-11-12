@@ -9,6 +9,11 @@ choice
 	prompt "Target"
 	default BR2_PACKAGE_HARDKERNEL_BOOT_ODROID_C2
 
+config BR2_PACKAGE_HARDKERNEL_BOOT_ODROID_U3
+	bool "Odroid-U3"
+	help
+	  For the Odroid-U3
+
 config BR2_PACKAGE_HARDKERNEL_BOOT_ODROID_C2
 	bool "Odroid-C2"
 	help

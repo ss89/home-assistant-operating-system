@@ -18,6 +18,7 @@ The following boards/devices are supported:
   - Odroid-C2
   - Odroid-C4
   - Odroid-XU4
+  - Odroid-U3
 - Asus
   - Tinker Board
 - Generic x86-64 (UEFI, not suited for virtualization)
@@ -38,17 +39,18 @@ Notes:
 
 ## Board specifics
 
-|Board|Build|Config|Docs|
-|-----|----|------|----|
-|Pi4B 64-bit   |`make rpi4_64`       |[rpi4_64](../../buildroot-external/configs/rpi4_64_defconfig)|[raspberrypi](./raspberrypi/)|
-|Pi4B 32-bit   |`make rpi4`          |[rpi4](../../buildroot-external/configs/rpi4_defconfig)|[raspberrypi](./raspberrypi/)|
-|Pi3B 64-bit   |`make rpi3_64`       |[rpi3_64](../../buildroot-external/configs/rpi3_64_defconfig)|[raspberrypi](./raspberrypi/)|
-|Pi3B 32-bit   |`make rpi3`          |[rpi3](../../buildroot-external/configs/rpi3_defconfig)|[raspberrypi](./raspberrypi/)|
-|Pi2           |`make rpi2`          |[rpi2](../../buildroot-external/configs/rpi2_defconfig)|[raspberrypi](./raspberrypi/)|
-|Odroid-N2/N2+ |`make odroid_n2`     |[odroid_n2](../../buildroot-external/configs/odroid_n2_defconfig)|[hardkernel](./hardkernel/)|
-|Odroid-C2     |`make odroid_c2`     |[odroid_c2](../../buildroot-external/configs/odroid_c2_defconfig)|[hardkernel](./hardkernel/)|
-|Odroid-C4     |`make odroid_c4`     |[odroid_c4](../../buildroot-external/configs/odroid_c4_defconfig)|[hardkernel](./hardkernel/)|
-|Odroid-XU4    |`make odroid_xu4`    |[odroid_xu4](../../buildroot-external/configs/odroid_xu4_defconfig)|[hardkernel](./hardkernel/)|
-|Tinker Board  |`make tinker`        |[tinker](../../buildroot-external/configs/tinker_defconfig)|[asus](./asus/)|
-|Generic x86-64|`make generic_x86_64`|[generic_x86_64](../../buildroot-external/configs/generic_x86_64_defconfig)|[generic-x86-64](./generic-x86-64/)|
-|OVA           |`make ova`           |[ova](../../buildroot-external/configs/ova_defconfig)|[ova](./ova/)|
+| Board         | Build                 | Config                                                                     |Docs|
+|---------------|-----------------------|----------------------------------------------------------------------------|----|
+| Pi4B 64-bit   | `make rpi4_64`        | [rpi4_64](../../buildroot-external/configs/rpi4_64_defconfig)              |[raspberrypi](./raspberrypi/)|
+| Pi4B 32-bit   | `make rpi4`           | [rpi4](../../buildroot-external/configs/rpi4_defconfig)                    |[raspberrypi](./raspberrypi/)|
+| Pi3B 64-bit   | `make rpi3_64`        | [rpi3_64](../../buildroot-external/configs/rpi3_64_defconfig)              |[raspberrypi](./raspberrypi/)|
+| Pi3B 32-bit   | `make rpi3`           | [rpi3](../../buildroot-external/configs/rpi3_defconfig)                    |[raspberrypi](./raspberrypi/)|
+| Pi2           | `make rpi2`           | [rpi2](../../buildroot-external/configs/rpi2_defconfig)                    |[raspberrypi](./raspberrypi/)|
+| Odroid-N2/N2+ | `make odroid_n2`      | [odroid_n2](../../buildroot-external/configs/odroid_n2_defconfig)          |[hardkernel](./hardkernel/)|
+| Odroid-C2     | `make odroid_c2`      | [odroid_c2](../../buildroot-external/configs/odroid_c2_defconfig)          |[hardkernel](./hardkernel/)|
+| Odroid-C4     | `make odroid_c4`      | [odroid_c4](../../buildroot-external/configs/odroid_c4_defconfig)          |[hardkernel](./hardkernel/)|
+| Odroid-XU4    | `make odroid_xu4`     | [odroid_xu4](../../buildroot-external/configs/odroid_xu4_defconfig)        |[hardkernel](./hardkernel/)|
+| Odroid-U3     | `make odroid_u3`      | [odroid_u3](../../buildroot-external/configs/odroid_u3_defconfig)          |[hardkernel](./hardkernel/)|
+| Tinker Board  | `make tinker`         | [tinker](../../buildroot-external/configs/tinker_defconfig)                |[asus](./asus/)|
+| Generic x86-64 | `make generic_x86_64` | [generic_x86_64](../../buildroot-external/configs/generic_x86_64_defconfig) |[generic-x86-64](./generic-x86-64/)|
+| OVA           | `make ova`            | [ova](../../buildroot-external/configs/ova_defconfig)                      |[ova](./ova/)|
